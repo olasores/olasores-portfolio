@@ -3,7 +3,7 @@ export default function Portfolio() {
         <div className="flex justify-center bg-black font-sans dark:bg-black ">
             <div className="max-w-[700px] w-full flex flex-col gap-8">
                 {/* Section Title */}
-                <div className="animate-fade-in-up">
+                <div>
                     <h2 className="text-3xl md:text-4xl font-medium text-white mb-2">
                         Portfolio
                     </h2>
@@ -15,7 +15,7 @@ export default function Portfolio() {
                 {/* Projects Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Quiz Me Project */}
-                    <div className="border border-gray-700 rounded-xl overflow-hidden hover:border-gray-500 transition flex flex-col animate-fade-in-up" style={{animationDelay: '0.2s'}}>
+                    <div className="border border-gray-700 rounded-xl overflow-hidden hover:border-gray-500 transition flex flex-col">
                         {/* Project Image */}
                         <div className="w-full h-48 bg-gray-800 overflow-hidden">
                             <img 
@@ -57,7 +57,7 @@ export default function Portfolio() {
                     </div>
 
                     {/* Project Card 2 - Chef Buddy */}
-                    <div className="border border-gray-700 rounded-xl overflow-hidden hover:border-gray-500 transition flex flex-col animate-fade-in-up" style={{animationDelay: '0.3s'}}>
+                    <div className="border border-gray-700 rounded-xl overflow-hidden hover:border-gray-500 transition flex flex-col">
                         {/* Project Image */}
                         <div className="w-full h-48 bg-gray-800 overflow-hidden">
                             <img 
