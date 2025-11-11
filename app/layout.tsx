@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Oyinkansola Olayinka | Portfolio",
   description: "Computer science student at Cal State Fullerton. Full-stack developer building intuitive applications.",
   icons: {
-    icon: "/assets/olaimg2.webp",
+    icon: "/assets/fav.png",
   },
 };
 
