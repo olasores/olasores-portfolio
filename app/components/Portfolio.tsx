@@ -2,22 +2,30 @@ export default function Portfolio() {
     const projects = [
         {
             id: 1,
-            title: "Quiz Me!",
-            description: "Aninteractive quiz application to test your knowledge.",
+            title: "QuizMe!",
+            description: "An interactive quiz application to test users' knowledge.",
             image: "/assets/quizzy.png",
             liveDemo: "https://quiz-me-sandy.vercel.app/",
             github: "https://github.com/olasores/QuizMe"
         },
         {
             id: 2,
-            title: "Chef Buddy",
-            description: "A cooking companion app to help you discover and manage recipes.",
-            image: "/assets/chef.png",
-            liveDemo: "https://chef-buddy-rouge.vercel.app/",
-            github: "https://github.com/olasores/ChefBuddy"
+            title: "Expence",
+            description: "A gamified webapp to help users manage their expenses effectively.",
+            image: "/assets/expence.png",
+            liveDemo: "https://expence-gilt.vercel.app/",
+            github: "https://github.com/olasores/expence"
         },
+        // {
+        //     id: 3,
+        //     title: "Chef Buddy",
+        //     description: "A cooking companion app to help you discover and manage recipes.",
+        //     image: "/assets/chef.png",
+        //     liveDemo: "https://chef-buddy-rouge.vercel.app/",
+        //     github: "https://github.com/olasores/ChefBuddy"
+        // },
          {
-            id: 3,
+            id: 4,
             title: "Voyager",
             description: "An exploratory experience through space",
             image: "/assets/voyager.png",
@@ -25,13 +33,15 @@ export default function Portfolio() {
             github: "https://github.com/olasores/fullyhacks_adventure"
         },
         {
-            id: 4,
-            title: "Fully Beyond",
+            id: 5,
+            title: "FullyBeyond",
             description: "A website created for CSUF first designathon.",
             image: "/assets/fullyb.webp",
             liveDemo: "https://fullybeyond.acmcsuf.com/",
             github: "https://github.com/olasores/fullybeyond"
         }
+        
+
         
     ];
 
