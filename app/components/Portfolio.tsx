@@ -19,7 +19,7 @@ export default function Portfolio() {
          {
             id: 3,
             title: "Voyager",
-            description: "A website created for CSUF first designathon.",
+            description: "An exploratory experience through space",
             image: "/assets/voyager.png",
             liveDemo: "https://fullyhacks-adventure.vercel.app/",
             github: "https://github.com/olasores/fullyhacks_adventure"
