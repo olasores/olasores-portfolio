@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdDescription } from 'react-icons/md';
 import { IoChevronDown } from 'react-icons/io5';
-import { HiOutlinePencilAlt } from 'react-icons/hi';
+import { HiOutlinePencilAlt, HiOutlineSparkles } from 'react-icons/hi';
 import { HiMoon, HiSun } from 'react-icons/hi2';
 import Link from 'next/link';
 
@@ -74,6 +74,12 @@ export default function Navbar() {
                                         onClick={() => setDropdownOpen(false)}>
                                         <HiOutlinePencilAlt className="text-base text-gray-400 dark:text-gray-500" />
                                         Blog
+                                    </Link>
+                                    <Link href="/interests"
+                                        className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-white/5 transition-colors duration-150"
+                                        onClick={() => setDropdownOpen(false)}>
+                                        <HiOutlineSparkles className="text-base text-gray-400 dark:text-gray-500" />
+                                        Interests
                                     </Link>
                                 </div>
                                 <div className="border-t border-gray-100 dark:border-white/5 p-1.5">
